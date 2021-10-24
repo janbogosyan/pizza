@@ -1,0 +1,48 @@
+.action-wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-width: 165px;
+}
+
+.tampon-type {
+    margin-right: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: end;
+}
+
+.action-btn, .amount-input {
+    text-align: center;
+    background-color: seashell;
+    font-size: 1.3rem;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 30px;
+    max-height: 30px;
+    color: black;
+}
+
+.action-btn {
+    cursor: pointer;
+}
+
+.action-btn.disabled {
+    color: gray;
+    pointer-events: none;
+    cursor: default;
+}
+
+.amount-input {
+    margin: 0 3px;
+    font-size: 1.2rem;
+}
+
+.amount-input.disabled {
+    color: gray;
+}
+
+.edit-wrapper {
+    grid-column-start: 2;
+}

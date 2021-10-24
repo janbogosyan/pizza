@@ -1,0 +1,17 @@
+.packages-wrapper {
+    margin: 0 auto;
+    width: 75vw;
+}
+
+.title {
+    text-align: center;
+}
+
+.extras {
+    margin-top: 10px;
+}
+
+.error {
+    text-align: center;
+    color: red;
+}
