@@ -20,7 +20,7 @@ function App() {
   }
 
   useEffect(() => {
-    searchMovie('Super Mario')
+    searchMovie(searchTerm)
   }, []);
 
   return (
@@ -38,7 +38,8 @@ function App() {
 
       {movies?.length > 0
         ? <div className="container">
-          {movies.map((movie,i) => <SingleMovieTemplate key={i} movie={movie} />)}
+          {/* и рендерираме масива от филми като на всеки филм подаваме данните чрез map */}
+          {movies.map((movie, i) => <SingleMovieTemplate key={i} movie={movie} />)}
         </div>
         : <div className="empty">
           <h2>No Movies found</h2>
