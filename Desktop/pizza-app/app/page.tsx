@@ -1,4 +1,4 @@
-import { Header } from './components/layouts/Header';
+// import { Header } from './components/layouts/Header';
 import { Hero } from './components/layouts/Hero';
 import { HomeMenu } from './components/layouts/HomeMenu';
 import { SectionHeaders } from './components/layouts/SectionHeaders';
@@ -6,7 +6,6 @@ import { SectionHeaders } from './components/layouts/SectionHeaders';
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <HomeMenu />
       <section className='text-centered my-16'>
@@ -45,9 +44,6 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <footer className='border-t p-8 text-center text-gray-400'>
-        &copy; 2024 All right reserved
-      </footer>
     </>
   )
 }
